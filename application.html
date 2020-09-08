@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Application Form</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="scripts.js"></script>
+</head>
+<body>
+<div class="wrapper">
+  <h2>Application Form</h2>
+  <div id="error_message"></div>
+  <form id="myform" onsubmit="return validate();">
+    <div class="input_field">
+        <input type="text" placeholder="Full Name" id="fname">
+    </div><br>
+    <div class="input_field">
+			<input type="text" placeholder="Middle Name" id="mname">
+	</div><br>
+	<div class="input_field">
+		<input type="text" placeholder="Last Name" id="lname">
+</div><br>
+<div class="dob">
+	<label for="birthday">Date of Birth: </label><br>
+<input type="date" id="birthday" name="birthday">
+</div><br>
+<div class="input_field">
+	<input type="text" placeholder="Age" id="Age">
+</div><br>
+
+    <div class="btn">
+        <input type="submit">
+    </div><br>
+  </form>
+</div>
+</body>
+</html>
